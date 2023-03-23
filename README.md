@@ -73,6 +73,7 @@ final PosPrintResult res = await printer.connect('192.168.0.123', port: 9100);
 
 if (res == PosPrintResult.success) {
   testReceipt(printer);
+  await printer.flush();
   printer.disconnect();
 }
 
