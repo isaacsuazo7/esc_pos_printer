@@ -16,7 +16,6 @@ dependencies:
     sdk: flutter
   # esc_pos_utils:
   #   path: ../esc_pos_utils
-  image: ^4.0.0
 
 dev_dependencies:
   flutter_test:
