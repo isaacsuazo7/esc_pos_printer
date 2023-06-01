@@ -120,25 +120,25 @@ class NetworkPrinter {
     _socket.add(_generator.row(cols));
   }
 
-  void image(Image imgSrc, {PosAlign align = PosAlign.center}) {
-    _socket.add(_generator.image(imgSrc, align: align));
-  }
+  // void image(Image imgSrc, {PosAlign align = PosAlign.center}) {
+  //   _socket.add(_generator.image(imgSrc, align: align));
+  // }
 
-  void imageRaster(
-    Image image, {
-    PosAlign align = PosAlign.center,
-    bool highDensityHorizontal = true,
-    bool highDensityVertical = true,
-    PosImageFn imageFn = PosImageFn.bitImageRaster,
-  }) {
-    _socket.add(_generator.imageRaster(
-      image,
-      align: align,
-      highDensityHorizontal: highDensityHorizontal,
-      highDensityVertical: highDensityVertical,
-      imageFn: imageFn,
-    ));
-  }
+  // void imageRaster(
+  //   Image image, {
+  //   PosAlign align = PosAlign.center,
+  //   bool highDensityHorizontal = true,
+  //   bool highDensityVertical = true,
+  //   PosImageFn imageFn = PosImageFn.bitImageRaster,
+  // }) {
+  //   _socket.add(_generator.imageRaster(
+  //     image,
+  //     align: align,
+  //     highDensityHorizontal: highDensityHorizontal,
+  //     highDensityVertical: highDensityVertical,
+  //     imageFn: imageFn,
+  //   ));
+  // }
 
   void barcode(
     Barcode barcode, {
