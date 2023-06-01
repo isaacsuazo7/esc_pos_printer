@@ -6,12 +6,11 @@ homepage: https://github.com/andrey-ushakov/esc_pos_printer
 environment:
   sdk: ">=3.0.1 <4.0.0"
 
+
 dependencies:
   charset_converter: ^2.1.1
-  esc_pos_utils:
-    git:
-      url: https://github.com/isaacsuazo7/esc_pos_utils.git
-      ref: master
+  esc_pos_utils: ^1.1.0
+
   flutter:
     sdk: flutter
   # esc_pos_utils:
